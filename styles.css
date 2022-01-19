@@ -11,6 +11,7 @@ body {
 
 .header, .first {
     background-color: #1F2937;
+    flex-shrink: 0;
 }
 
 .header {
@@ -47,16 +48,17 @@ body {
 
 .first {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 80px 60px 80px;
-    gap: 0px;
+    gap: 20px;
 }
 
 .left_side {
     display: flex;
-    width: 400px;
+    width: 350px;
     height: 150px;
     flex-flow: column nowrap;
+    flex-shrink: 0;
     gap: 10px;
 }
 
@@ -86,11 +88,12 @@ body {
 
 img {
     background-color: #888787;
-    width: 400px;
+    width: 350px;
     height: 200px;
     color: #ececec;
     line-height: 50px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 
@@ -180,14 +183,43 @@ img {
 
 
 
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 
 
 .CallToAction_Section {
     background: #3882F6;
     color: white;
-    padding: 20px;
-    margin: 20px;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 40px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_action {
+
+}
+
+.title3 {
+    font-weight: bold;
+}
+
+.subtext3 {
+    font-size: 12px;
+}
+
+.whiteline {
+
 }
 
 
