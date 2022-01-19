@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .first {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    width: auto;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderLogo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    background-color: grey;
+    color: #F9FAF8;
+    line-height: 50px;
+    text-align: center;
+}
+
+.links_contain {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links {
+    padding: 5px;
+    color: #f9faf8;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.title1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.Signup_button1 {
+    background: #3882F6;
+}
+
+.figure_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.figure_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+}
+
+.quote_section {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 26px;
+    font-style: italic;
+    color: black;
+}
+
+.author {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.CallToAction_Section {
+    background: #3882F6;
+}
+
+.Signup_button2 {
+    background: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.foot_text {
+    color: #f9faf8;
+}
